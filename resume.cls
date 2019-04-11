@@ -52,12 +52,12 @@
 \let \@titleThree \relax
 
 \def \title #1{
-  \@ifundefined{@titleThree}{
-    \def \@titleThree {#1}
+  \@ifundefined{@titleOne}{
+    \def \@titleOne {#1}
   }{\@ifundefined{@titleTwo}{
     \def \@titleTwo {#1}
   }}{
-    \def \@titleOne {#1}
+    \def \@titleThree {#1}
   }
 }
 
