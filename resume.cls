@@ -19,6 +19,7 @@
 % Modified 2019-04-11 by Justin L. Espiritu
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
 \ProvidesClass{resume}[2019-04-11 v1.0 Resume class]
 
 \LoadClass[11pt,letterpaper]{article} % Font size and paper type
@@ -45,7 +46,7 @@
 \def \email #1{\def\@email{#1}}
 \def \@email {}
 
-\def \seperator {$|$} % Set default address separator to '|'
+\def \seperator {$|$ \hspace{5pt}} % Set default address separator to '|'
 
 \let \@titleOne \relax
 \let \@titleTwo \relax
@@ -61,17 +62,22 @@
   }
 }
 
-\def \printTitle #1{
+\def \printTitles {
   \begingroup
-    #1
+    \@ifundefined{@titleOne}{}{
+      \@titleOne} 
+    \@ifundefined{@titleTwo}{}{
+      \seperator \@titleTwo}
+    \@ifundefined{@titleThree}{}{
+      \seperator \@titleThree}
   \endgroup 
 }
 
 % \printname is used to print the name as a page header
-\def \printname {
+\def \printName {
   \begingroup
     {\MakeUppercase{\namesize\bf \@name}}
-    \newline
+    \newline \rule{275pt}{1pt} \newline %TODO: make dynamic
   \endgroup
 }
 
@@ -82,13 +88,8 @@
 \let\ori@document=\document
 \renewcommand{\document}{
   \ori@document  % Begin document
-  \printname % Print the name specified with \name
-  \@ifundefined{@titleOne}{}{
-    \printTitle{\@titleOne}} 
-  \@ifundefined{@titleTwo}{}{
-    \printTitle{\@titleTwo}}
-  \@ifundefined{@titleThree}{}{
-    \printTitle{\@titleThree}}
+  \printName % Print the name specified with \name
+  \printTitles
 }
 
 %----------------------------------------------------------------------------------------
@@ -131,7 +132,7 @@
 }
 
 % The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
-\def\namesize{\Large} % Size of the name at the top of the document
+\def\namesize{\LARGE} % Size of the name at the top of the document
 \def\addressskip{\smallskip} % The space between the two address (or phone/email) lines
 \def\sectionlineskip{\medskip} % The space above the horizontal line for each section 
 

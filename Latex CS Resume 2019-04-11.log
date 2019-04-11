@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.11)  11 APR 2019 17:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.11)  11 APR 2019 18:01
 entering extended mode
 **"c:/Users/espir/Desktop/Resume/Resume 2019-04-11/Latex CS Resume 2019-04-11.tex"
 ("c:/Users/espir/Desktop/Resume/Resume 2019-04-11/Latex CS Resume 2019-04-11.tex"
@@ -127,6 +127,12 @@ LaTeX Font Info:    ... okay on input line 29.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 29.
 
 Underfull \hbox (badness 10000) in paragraph at lines 37--45
 
@@ -142,25 +148,19 @@ Overfull \hbox (0.12225pt too wide) in paragraph at lines 61--63
 \OT1/cmr/m/n/10.95 Presented a sem-i-nar on Mi-cro Tun-nel-ing, ex-plain-ing its ad-van-tages over con-ven-tional method of drainage
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 71.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 71.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 71.
 [1
 
 {C:/Users/espir/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] ("c:/Users\espir\Desktop\Resume\Resume 2019-04-11\Latex CS Resume 2019-04-11.aux") ) 
 Here is how much of TeX's memory you used:
  1595 strings out of 492945
- 22707 string characters out of 3135513
- 95700 words of memory out of 3000000
+ 22710 string characters out of 3135513
+ 95713 words of memory out of 3000000
  5507 multiletter control sequences out of 15000+200000
- 7638 words of font info for 27 fonts, out of 3000000 for 9000
+ 7639 words of font info for 27 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,6n,23p,942b,186s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "c:/Users\espir\Desktop\Resume\Resume 2019-04-11\Latex CS Resume 2019-04-11.pdf" (2 pages, 76525 bytes).
+Output written on "c:/Users\espir\Desktop\Resume\Resume 2019-04-11\Latex CS Resume 2019-04-11.pdf" (2 pages, 77246 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

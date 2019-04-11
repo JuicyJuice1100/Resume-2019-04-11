@@ -46,10 +46,8 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
 INPUT c:\Users\espir\Desktop\Resume\Resume 2019-04-11\Latex CS Resume 2019-04-11.aux
 INPUT c:\Users\espir\Desktop\Resume\Resume 2019-04-11\Latex CS Resume 2019-04-11.aux
 OUTPUT c:\Users\espir\Desktop\Resume\Resume 2019-04-11\Latex CS Resume 2019-04-11.aux
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmti10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
@@ -58,6 +56,8 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi6.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy8.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmti10.tfm
 OUTPUT c:\Users\espir\Desktop\Resume\Resume 2019-04-11\Latex CS Resume 2019-04-11.pdf
 INPUT C:\Users\espir\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT c:\Users\espir\Desktop\Resume\Resume 2019-04-11\Latex CS Resume 2019-04-11.aux
