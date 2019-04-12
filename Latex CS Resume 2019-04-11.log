@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.11)  11 APR 2019 20:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.11)  11 APR 2019 21:22
 entering extended mode
 **"c:/Users/espir/Desktop/Resume/Resume 2019-04-11/Latex CS Resume 2019-04-11.tex"
 ("c:/Users/espir/Desktop/Resume/Resume 2019-04-11/Latex CS Resume 2019-04-11.tex"
@@ -131,24 +131,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 29.
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--57
-
- []
-
 [1
 
 {C:/Users/espir/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] ("c:/Users\espir\Desktop\Resume\Resume 2019-04-11\Latex CS Resume 2019-04-11.aux") ) 
 Here is how much of TeX's memory you used:
  1582 strings out of 492945
  22558 string characters out of 3135513
- 96745 words of memory out of 3000000
+ 97745 words of memory out of 3000000
  5500 multiletter control sequences out of 15000+200000
  4899 words of font info for 18 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,6n,23p,942b,192s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,6n,23p,942b,190s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "c:/Users\espir\Desktop\Resume\Resume 2019-04-11\Latex CS Resume 2019-04-11.pdf" (2 pages, 79351 bytes).
+Output written on "c:/Users\espir\Desktop\Resume\Resume 2019-04-11\Latex CS Resume 2019-04-11.pdf" (2 pages, 83313 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
