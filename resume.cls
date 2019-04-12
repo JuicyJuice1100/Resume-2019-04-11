@@ -22,7 +22,7 @@
 
 \ProvidesClass{resume}[2019-04-11 v1.0 Resume class]
 
-\LoadClass[11pt,letterpaper]{article} % Font size and paper type
+\LoadClass[10pt,letterpaper]{article} % Font size and paper type
 
 \usepackage[parfill]{parskip} % Remove paragraph indentation
 \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
@@ -46,50 +46,76 @@
 \def \email #1{\def\@email{#1}}
 \def \@email {}
 
-\def \seperator {$|$ \hspace{5pt}} % Set default address separator to '|'
+\def \seperator {\hspace*{1pt} $|$ \hspace*{1pt}} % Set default address separator to '|'
 
+% Optional title definitions
 \let \@titleOne \relax
 \let \@titleTwo \relax
 \let \@titleThree \relax
 
+% The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
+\def \nameSize{\Large} % Size of the name at the top of the document
+\def \headerSpacing{\linespread{.5}}
+\def \infoSize{\footnotesize}
+\def \addressskip{\smallskip} % The space between the two address (or phone/email) lines
+\def \sectionlineskip{\medskip} % The space above the horizontal line for each section 
+
+\def\sectionskip{\medskip} % The space after the heading section
+
+%----------------------------------------------------------------------------------------
+%	PRINT HEADER FUNCTION DEFINITIONS
+%----------------------------------------------------------------------------------------
+
+
 \def \title #1{
   \@ifundefined{@titleOne}{
-    \def \@titleOne {#1}
+    \def \@titleOne{#1}
   }{\@ifundefined{@titleTwo}{
-    \def \@titleTwo {#1}
+    \def \@titleTwo{#1}
   }}{
-    \def \@titleThree {#1}
+    \def \@titleThree{#1}
   }
 }
 
 \def \printTitles {
   \begingroup
     \@ifundefined{@titleOne}{}{
-      \@titleOne} 
-    \@ifundefined{@titleTwo}{}{
-      \seperator \@titleTwo}
-    \@ifundefined{@titleThree}{}{
-      \seperator \@titleThree}
+      \@titleOne \hspace*{-7pt} %TODO:  Figure out why this adds space
+      \@ifundefined{@titleTwo}{}{
+          \seperator \@titleTwo
+          \@ifundefined{@titleThree}{}{
+            \seperator \@titleThree
+          }
+        }
+      } 
+    \\*
   \endgroup 
 }
 
-% \printname is used to print the name as a page header
 \def \printName {
   \begingroup
-    {\MakeUppercase{\namesize\bf \@name}}
-    \newline \rule{275pt}{1pt} \newline %TODO: make dynamic
+    {\MakeUppercase
+      {\nameSize\bf \@name}
+    }
+    \\* \rule{275pt}{1pt} \\* %TODO: make dynamic
   \endgroup
 }
 
+\def \printContactInfo {
+    \begingroup
+      \@address \seperator \@phone \seperator \@email
+    \endgroup
+}
 %----------------------------------------------------------------------------------------
-%	PRINT THE HEADING LINES
+%	START HEADER
 %----------------------------------------------------------------------------------------
 
 \let\ori@document=\document
 \renewcommand{\document}{
   \ori@document  % Begin document
-  \printName % Print the name specified with \name
-  \printTitles
+  \printName
+  \printTitles % Optional
+  \printContactInfo
 }
 
 %----------------------------------------------------------------------------------------
@@ -131,9 +157,4 @@
   \vspace{0.5em} % Some space after the list of bullet points
 }
 
-% The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
-\def\namesize{\LARGE} % Size of the name at the top of the document
-\def\addressskip{\smallskip} % The space between the two address (or phone/email) lines
-\def\sectionlineskip{\medskip} % The space above the horizontal line for each section 
 
-\def\sectionskip{\medskip} % The space after the heading section
