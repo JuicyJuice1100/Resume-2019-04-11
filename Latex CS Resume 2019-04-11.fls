@@ -52,8 +52,6 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmti10.tfm
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd
 OUTPUT c:\Users\espir\Desktop\Resume\Resume 2019-04-11\Latex CS Resume 2019-04-11.pdf
 INPUT C:\Users\espir\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT c:\Users\espir\Desktop\Resume\Resume 2019-04-11\Latex CS Resume 2019-04-11.aux

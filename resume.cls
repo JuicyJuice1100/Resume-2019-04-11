@@ -82,7 +82,7 @@
     \@ifundefined{@titleOne}{}{
       \@titleOne \hspace*{-7pt} %TODO:  Figure out why this adds space
       \@ifundefined{@titleTwo}{}{
-          \seperator \@titleTwo
+          \seperator \@titleTwo \hspace*{-7pt} %TODO:  Figure out why this adds space
           \@ifundefined{@titleThree}{}{
             \seperator \@titleThree
           }
