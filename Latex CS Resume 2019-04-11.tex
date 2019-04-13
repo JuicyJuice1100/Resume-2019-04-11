@@ -12,6 +12,8 @@
 \documentclass{resume} % Use the custom resume.cls style
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 
@@ -67,41 +69,66 @@
 
 \end{rSection}
 %----------------------------------------------------------------------------------------
-%	Projects
+%	Other Projects
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Projects}
+\begin{rSection}{Other Projects}
 
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Modeling and Analysis \ & AutoCad, Revit, StaadPro \\
-Software \& Tools & MS Office, Latex \\
-\end{tabular}
+    \begin{rSubsection}{Dog Filter App}{}{}{}
+        \item Simple web application, built from scratch, with AngularJS using the open dogs api
+    \end{rSubsection}
+
+    \begin{rSubsection}{Biggest Loser App}{}{}{}
+        \item Collaborated with a team of five to create a web application to compare and keep track of weight loss between users.
+        \item Took role of Requirements Leader:  Ensured all requirements have been collected \& documented; managed the product backlog.
+        \item Responable for creating \& maintaining database infastrucure using MYSQL/phpmyadmin.
+        \item Collaborated with Test Leader to create Unit tests using PHPUnit
+    \end{rSubsection}
+
+    \begin{rSubsection}{Nerdup}{}{}{}
+        \item Mobile Application used to record, download, and share notes on Super Smash Brothers players
+        \item Developed using Android Studio \& Firebase as a database
+    \end{rSubsection}
+
+    % \begin{rSubsection}{Webclicker}{}{}{}
+    %     \item Collaborated with team of four to create a web application that allowed students to answer questions created by an instructor
+    %     \item Responsible for creating \& maintaining database infastrucure using MYSQL/phpmyadmin
+    % \end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Languages, Frameworks, etc.
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Languages, Frameworks, Etc.}
+
+    \begin{table}[h]
+        \begin{tabular}{lllll}
+        \multicolumn{2}{l}{{\ul \textbf{Languages}}} & {\ul \textbf{Frameworks}} & {\ul \textbf{Databases}} & {\ul \textbf{Tools}} \\
+        \textit{Javascript} & \textit{SQL} & \textit{AngularJS} & \textit{MySQL} & \textit{Github/GitLab} \\
+        \textit{Java} & \textit{Python 2 \& 3} & \textit{jQuery/jQuery UI} & \textit{Microsoft SQL Server} & \textit{Mercurial} \\
+        \textit{PHP} & \textit{C\textbackslash{}C++} & \textit{NodeJS} & \textit{Firebase} & \textit{Jira} \\
+        \textit{HTML/CSS} & \textit{Latex} & \textit{.NET} & \textit{} & \textit{}
+        \end{tabular}
+    \end{table}
 
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
+%	CS Courses
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Work Experience}
+\begin{rSection}{CS Courses}
 
-\begin{rSubsection}{SJ Contracts, Pune}{June 2016}{Site Engineer}{}
-\item On-site internship under this leading construction company. Learned and implemented various aspects such as quantity estimation, labour management and safety precautions.
-\end{rSubsection}
-
+    \begin{table}[h]
+        \begin{tabular}{lllll}
+        \textit{Architecture \& Assembly Language} & \textit{Computer Graphics} & \textit{Data Strucutres} & \textit{Digital Instrumentation} & \textit{Object Oriented Design \& Programming I \& II} \\
+        \textit{Web Software Development} & \textit{Database Systems} & \textit{Mobile Application Development} & \textit{Programming Languages} & \textit{Algorithms} \\
+        \textit{Software Engineering I} & \textit{Artifical Intelligence} & \textit{Computer Security} & \textit{Computer Science Internship} & \textit{}
+        \end{tabular}
+    \end{table}
 
 \end{rSection}
-
-
-%	EXAMPLE SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Academic Achievements} 
- Runners up in B.G.Shirke Vidyarthi Competition for Innovative Project organized by Pune Construction Engineering Research Foundation in January 2018
-\item Won First Prize in Model Making Competition Organized by Symbiosis Institute of Technology, Pune.
-\end{rSection}
-
-\newpage
 
 %----------------------------------------------------------------------------------------
 % Extra Curricular
@@ -112,16 +139,4 @@ Software \& Tools & MS Office, Latex \\
 \item Winner of Inter Departmental Football Competition 2015.
 \item Member of the  Rotaract Club Of Pune Pride from 2014 to 2017.
 \item Worked for a start-up company Named OUST as a Regional Marketing Manager
-%\item Trained and disciplined in National Cadet Corps (NCC), IIT Kanpur for a year.
- %\item  Participated in Vijyoshi Camp 2012 organized at Indian Institute of Science, Bangalore.
- %\item Won 2nd position in Kho-Kho in Intramurals conducted by Physical Education Section, IIT Kanpur.
- %\item Pursued French as second language during secondary school from Grade 6 to Grade 10. Also participated in French Song Competition and French G.K. Quiz in Class 10th. %
-
 \end{rSection}
-
-\begin{rSection}{Personal Traits}
-\item Highly motivated and eager to learn new things.
-\item Strong motivational and leadership skills.
-\item Ability to work as an individual as well as in group.
-\end{rSection}
-\end{document}
