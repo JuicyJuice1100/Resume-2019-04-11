@@ -1,9 +1,9 @@
-PWD c:\Users\espir\Desktop\Resume\Resume 2019-04-11
-INPUT C:\Users\espir\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\espir\Desktop\Resume\Resume 2019-04-11\Latex CS Resume 2019-04-11.tex
-OUTPUT c:\Users\espir\Desktop\Resume\Resume 2019-04-11\Latex CS Resume 2019-04-11.log
-INPUT c:\Users\espir\Desktop\Resume\Resume 2019-04-11\resume.cls
-INPUT c:\Users\espir\Desktop\Resume\Resume 2019-04-11\resume.cls
+PWD c:\Users\ThatA\Desktop\Repos\Resume-2019-04-11
+INPUT C:\Users\ThatA\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\ThatA\Desktop\Repos\Resume-2019-04-11\Latex CS Resume 2019-04-11.tex
+OUTPUT c:\Users\ThatA\Desktop\Repos\Resume-2019-04-11\Latex CS Resume 2019-04-11.log
+INPUT c:\Users\ThatA\Desktop\Repos\Resume-2019-04-11\resume.cls
+INPUT c:\Users\ThatA\Desktop\Repos\Resume-2019-04-11\resume.cls
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo
@@ -45,16 +45,16 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\ulem\ulem.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\ulem\ulem.sty
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\latex-fonts\lasy6.tfm
-INPUT c:\Users\espir\Desktop\Resume\Resume 2019-04-11\Latex CS Resume 2019-04-11.aux
-INPUT c:\Users\espir\Desktop\Resume\Resume 2019-04-11\Latex CS Resume 2019-04-11.aux
-OUTPUT c:\Users\espir\Desktop\Resume\Resume 2019-04-11\Latex CS Resume 2019-04-11.aux
+INPUT c:\Users\ThatA\Desktop\Repos\Resume-2019-04-11\Latex CS Resume 2019-04-11.aux
+INPUT c:\Users\ThatA\Desktop\Repos\Resume-2019-04-11\Latex CS Resume 2019-04-11.aux
+OUTPUT c:\Users\ThatA\Desktop\Repos\Resume-2019-04-11\Latex CS Resume 2019-04-11.aux
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmti10.tfm
-OUTPUT c:\Users\espir\Desktop\Resume\Resume 2019-04-11\Latex CS Resume 2019-04-11.pdf
-INPUT C:\Users\espir\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
-INPUT c:\Users\espir\Desktop\Resume\Resume 2019-04-11\Latex CS Resume 2019-04-11.aux
+OUTPUT c:\Users\ThatA\Desktop\Repos\Resume-2019-04-11\Latex CS Resume 2019-04-11.pdf
+INPUT C:\Users\ThatA\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT c:\Users\ThatA\Desktop\Repos\Resume-2019-04-11\Latex CS Resume 2019-04-11.aux
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
